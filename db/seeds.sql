@@ -1,2 +1,4 @@
-INSERT INTO burgers (burger_name) VALUES ('plain cheeseburger'), ('bacon cheeseburger'), ('big mac');
-INSERT INTO burgers (burger_name, devoured) VALUES ('quarter pounder, true'), ('steak burger', false), ('hamburger', true);
+  
+INSERT INTO BURGERS (burger_name, devoured) VALUES ('Double Bacon Deluxe', FALSE);
+INSERT INTO BURGERS (burger_name, devoured) VALUES ('Turkey Burger', FALSE);
+INSERT INTO BURGERS (burger_name, devoured) VALUES ('Veggie Burger', FALSE);
