@@ -16,13 +16,6 @@ app.use("/", require("./controllers/burgerController"));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// Connect to the database and start express server
-connection.connect((err) => {
-  if (err) {
-    console.log(err);
-  } else {
-    app.listen(PORT, () => {
-      console.log(`App listening on port ${PORT}`);
-    });
-  }
+app.listen(PORT, () => {
+  console.log(`App listening on http://localhost:${PORT}`);
 });
